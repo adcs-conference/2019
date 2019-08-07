@@ -1,12 +1,13 @@
-# ADCS 2019
+# ADCS2018
 
-Website for 24th Australasian Document Computing Symposium, Sydney, Australia
+Website content for the official site of the Australasian Document Computing Symposium, 11-12 December 2018, Dunedin, New Zealand.
 
-## Chairs
+Built primarly with Twitter Bootstrap.
 
-Paul Thomas, Microsoft.
+## Authors
 
-## Website
+Bevan Koopman ([@bevan_koopman](http://twitter.com/bevan_koopman "Title")) and Guido Zuccon ([@guidozuc](https://twitter.com/guidozuc)).
 
-Paul Thomas, Microsoft.
-Bevan Koopman, CSIRO.
+## Notes
+If you want to run a local version of this site (using file::// syntax) then it only runs in Firefox.
+

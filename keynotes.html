@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
+
+    <title>ADCS2018</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+   <script src="js/jquery.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#navbarContent").load("navbar.html"); 
+      $("#sidebarContent").load("sidebar.html"); 
+      $("#footerContent").load("footer.html");
+    });
+    </script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+       <div id="navbarContent"></div>
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+<!-- 
+- home
+- cfp & submissions
+- program
+- keynotes
+- location and registration
+- organising committee
+- information for presenters -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-8">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle sidebar</button>
+          </p>
+          
+          <div class="row">
+            <div class="col-xs-12 col-sm-12">
+            <h2>Keynote Presentations</h2>
+
+              <p>Coming soon...</p>
+
+            
+            <!--<a name="jon"></a>
+            <h3>Jon Degenhardt - eBay</h3>
+		        Principle MTS, Search Science
+            
+            <h4>An Industry Perspective on Search and Search Applications</h4>
+            <i></i>
+               <h5>Thursday 3, 9.15-10.30 am</h5> 
+              <p>
+		Large scale web search came into being just over twenty years ago, seemingly overnight and to huge success. In the intervening time search has continued to grow in capability and influence. This hasn't stopped with web search. Search is at center of many businesses operating at web scale.
+
+Perhaps most remarkable is how simple this can look from the outside. Large scale search engines routinely consider billions of candidate documents on every query and return quality results in less than half a second. These search engines are rarely down or unavailable.
+
+Of course, it's not quite that simple. Technical sophistication across a broad set of disciplines, engineering excellence, operational expertise, and much more are all necessary ingredients.
+
+This talk will give a view of search from an industry perspective. eBay's search system will provide many of the motivating examples, but the intent will be to describe challenges and trade-offs faced in industry generally. Scale, architecture, and engineering are all key considerations, and of course the relevance technology at the center. Domain specific search needs are a common theme, creating new opportunities, and often, a need to reexamine traditional assumptions. 
+
+The evolution of search and it's role in applications is far from complete. New technologies, new paradigms, and new problems make for an exciting future.
+              </p>
+
+              <h4>About Jon</h4>
+              <p>
+<img src="img/jon_degenhardt.jpg" class="keynote">
+             Jon has been a senior member of eBay's search science team since 2010. His primary focus is search relevance, but spends significant time on search engine architecture and user experience in pursuit of a holistic eCommerce search experience. Previously he was a member of Yahoo's web search ranking team (starting 2006). Both experiences have informed his views on the contrasts between web search and e-commerce search. Jon received CS degrees from the University of Michigan (BS) and Stanford University (MS) in the 1980s. He has worked in industry since, including stints in both traditional software engineering and information science projects. At eBay, he started Applied Science Forum, eBay's most successful internal data science talk series. He attended his first SIGIR conference in 1987. 
+              </p>
+
+             <h5>Chair: Aixin Sun</h5> 
+
+            <br>
+
+             <a name="david"></a>
+            <h3>Professor David Bainbridge - University of Waikato</h3>
+            Computing & Mathematical Sciences
+            
+            <h4>Can You Really Do That? Exploring new ways to interact with web content and the desktop</h4>
+            <i></i>
+               <h5>Thursday 3, 9.15-10.30 am</h5> 
+
+              <p>
+    The premise of this talk is to challenge certain assumptions and accepted norms in how we access web content (documents and beyond) and interact with our desktops.  Demonstrated through four prototypes, I will illustrate some of the capabilities that are possible when these assumptions are broken and the norms overridden.  The first system—called Seaweed (short for SEAmless WEb EDiting)—is a technique that challenges the assumption that content produced by a website can only be changed if the person providing the content allows it.  The next two systems—Computer Says No …Maybe …Yes, and Meddle (short for the ModifiED Digital Library Environment)—challenge the assumption that the functionality provided by a website (in particular online information systems) is predetermined by the provider of that website.  The final system, Once Seen Never Forgotten, focuses on how desktops operate and questions the assumption that what gets drawn on the screen is by its very nature transitory, and so once it has gone cannot be recalled.  Through the talk I hope to perhaps surprise you in how minor a shift in thinking can lead to substantial rewards in terms of the user experience, but more importantly to provoke thought in what other ways we can change how we interact with and access content.  In presenting these prototypes I show that yes, you really can do that.
+              </p>
+
+              <h4>About David</h4>
+              <p>
+<img src="img/Bainbridge-David.jpg" class="keynote">
+             David Bainbridge is a Professor of Computer Science at the University of Waikato, and Director of the New Zealand Digital Library Research Project.  He is an advocate of open source software, and an active coder on the Greenstone digital library project, and the spatial hypermedia system, Expeditee.  His research interests include music content analysis, and human computer interaction in addition to digital libraries. He has published widely in these areas, including the book How to Build a Digital Library, with colleagues Prof Ian Witten and Assoc Prof Dave Nichols, now into its second edition.  David graduated with a Bachelor of Engineering in Computer Science from Edinburgh University, UK, and undertook his PhD in Computer Science at Canterbury University, in the area of Optical Music Recognition.
+              </p>-->
+
+            </div><!--/.col-xs-6.col-lg-4-->
+            
+          </div><!--/row-->
+        </div><!--/.col-xs-12.col-sm-9-->
+
+        <div id="sidebarContent"></div>
+      </div><!--/row-->
+
+      <hr>
+
+      <div id="footerContent"></div>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/offcanvas.js"></script>
+  
+
+</body></html>

@@ -1,68 +1,139 @@
 ﻿<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
 <html lang="en">
-  <head>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+    <!-- <link rel="icon" href="http://getbootstrap.com/favicon.ico"> -->
 
-    <title>24th Australasian Document Computing Symposium</title>
+    <title>ADCS 2019 | Australasian Document Computing Symposium 2019</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
-  </head>
+    <link href="css/offcanvas.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
-  <body>
 
-    <div class="site-wrapper">
 
-      <div class="site-wrapper-inner">
 
-        <div class="cover-container">
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function () {
 
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">#ADCS2019</h3>
-             <!--  <nav class="nav nav-masthead">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contact</a>
-              </nav> -->
+            $("#navbarContent").load("navbar.html");
+            $("#sidebarContent").load("sidebar.html");
+            $("#footerContent").load("footer.html");
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-          </div>
+            <div id="navbarContent"></div>
 
-          <div class="inner cover">
-            <h1 class="cover-heading">24th Australasian Document Computing Symposium.</h1>
-            <p>This will be the official homepage for the<br> 24th Australasian Document Computing Symposium.</p>
-            <p class="lead">5-6 December<br> University of Technology Sydney, Australia.</p>
-            <p class="lead">More to come...</p>
-            <p class="lead">
-              <a href="https://twitter.com/AusDocCompSymp" class="btn btn-lg btn-secondary">@AusDocCompSymp</a>
-            </p>
+        </div><!-- /.container -->
+    </nav><!-- /.navbar -->
 
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Programme chairs: Paul Thomas, Gianluca Demartini.</p>
-            </div>
-          </div>
 
-        </div>
+    <div class="container">
 
-      </div>
+        <div class="row row-offcanvas row-offcanvas-right">
 
-    </div>
+            <div class="col-xs-12 col-sm-8">
+                <p class="pull-right visible-xs">
+                    <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle sidebar</button>
+                </p>
 
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <div class="jumbotron" style="background-image: url('img/uts.jpg'); background-size: 100% 100%; background-position: 0px 00px;">
+                            <h1>ADCS 2019</h1>
+                            <p class="welcome">24<sup>th</sup> Australasian Document Computing Symposium<br>5-6 December 2019, Sydney</p>
+                        </div>
+                        <p>
+                            The 24<sup>th</sup> Australasian Document Computing Symposium (ADCS 2019) will be at the University of Technology, Sydney, on 5-6 December 2019.
+                        </p>
+
+                        <p>
+                            ADCS is an opportunity for researchers and practitioners in document computing and information retrieval (IR) to meet and present their work.
+                            The symposium aims to cover all aspects of Document Computing - issues ranging from the fundamentals of document architectures and standards for markup,
+                            through storage, management, retrieval, authentication and workflow, to active and virtual documents. The symposium emphasises both commercial and
+                            academic issues by encouraging a variety of submissions from both.
+                        </p>
+
+                        <p>
+                            We welcome submissions of original papers. <!--Proceedings will be published by the ACM as part of the International Conference Proceedings Series (ICPS).--> Details about relevant topics, publication format and
+                            submission deadlines can be found in the <a href="cfp.html">Call for Papers</a>.
+                        </p>
+
+                        <!--<p>
+                            ADCS 2018 is an ACM SIGIR in-cooperation event and follows the <a href="http://sigir.org/conferences/conference-code-of-conduct/">ACM SIGIR Conference Code of Conduct</a>.
+                        </p>-->
+
+                        <p>
+                            ADCS 2019 is co-located with <a href="http://alta2019.alta.asn.au" />ALTA 2019</a>, the 17<sup>th</sup> Annual Workshop of the Australasian Language Technology Association.
+                        </p>
+
+                        <div class="row">
+
+
+                            <div class="col-xs-12 col-lg-12">
+
+                                <!--<h2>Latest</h2>
+
+                                <blockquote>
+                                    The <a href=https://dl.acm.org/citation.cfm?id =3291992>Proceedings of the 23rd Australasian Document Computing Symposium</a> are in the ACM Digital Library.
+                                </blockquote>-->
+
+                            </div>
+
+                            <p style="float:right;font-size:8px;color:dimgrey">UTS photo by <a href="https://unsplash.com/@jorgereyna?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Jorge Reyna</a></p>
+
+                        </div><!--/row-->
+
+                    </div>
+
+                </div><!--/row-->
+            </div><!--/.col-xs-12.col-sm-9-->
+
+            <div id="sidebarContent"></div>
+
+        </div><!--/row-->
+
+        <hr>
+
+        <div id="footerContent"></div>
+
+    </div><!--/.container-->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+
+    <script src="js/offcanvas.js"></script>
+
+
+</body>
 </html>
