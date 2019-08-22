@@ -46,3 +46,8 @@ footer img, img.sponsor {
 .sponsor p {
 	margin: 20px 0px 20px 0px;
 }
+
+.sponsor-big {
+    height: 60px;
+    margin: 30px;
+}
